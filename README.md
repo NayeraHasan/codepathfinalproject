@@ -1,3 +1,6 @@
+
+Video: https://haverford.zoom.us/rec/share/FVBg6WaEOTIJLRrftg911eryjj5HWZVI47nB-m4cfLnSzoQ4iKjwnMWHr_09bScH.xLEt9h4FyJh-SiTG password: G?W2*bpv 
+
 # 🐾 PawPal+ AI: Smart Pet Care Management System
 
 > **Applied AI System — Project 4**
