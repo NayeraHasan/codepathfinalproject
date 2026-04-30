@@ -1,0 +1,86 @@
+{
+  "total": 11,
+  "passed": 11,
+  "pass_rate": 1.0,
+  "average_confidence": 1.0,
+  "rating": "EXCELLENT \u2b50\u2b50\u2b50\u2b50\u2b50",
+  "tests": [
+    {
+      "name": "Sorting correctness",
+      "passed": true,
+      "message": "Order: ['07:00', '08:00', '08:30', '09:00', '22:00']",
+      "confidence": 1.0,
+      "elapsed_ms": 0.45
+    },
+    {
+      "name": "Conflict detection \u2014 true positive",
+      "passed": true,
+      "message": "Detected 1 conflict(s)",
+      "confidence": 1.0,
+      "elapsed_ms": 0.09
+    },
+    {
+      "name": "Conflict detection \u2014 true negative",
+      "passed": true,
+      "message": "False positives: 0",
+      "confidence": 1.0,
+      "elapsed_ms": 0.11
+    },
+    {
+      "name": "Daily recurrence",
+      "passed": true,
+      "message": "Next due: 2026-04-30",
+      "confidence": 1.0,
+      "elapsed_ms": 0.1
+    },
+    {
+      "name": "Weekly recurrence",
+      "passed": true,
+      "message": "Next due: 2026-05-06",
+      "confidence": 1.0,
+      "elapsed_ms": 0.09
+    },
+    {
+      "name": "Once \u2014 no recurrence",
+      "passed": true,
+      "message": "Task count after complete: 1",
+      "confidence": 1.0,
+      "elapsed_ms": 0.06
+    },
+    {
+      "name": "Filter by pet",
+      "passed": true,
+      "message": "Returned 3 Buddy task(s)",
+      "confidence": 1.0,
+      "elapsed_ms": 0.11
+    },
+    {
+      "name": "Filter by completion status",
+      "passed": true,
+      "message": "Completed: 1, Pending: 3",
+      "confidence": 1.0,
+      "elapsed_ms": 0.1
+    },
+    {
+      "name": "RAG knowledge retrieval",
+      "passed": true,
+      "message": "Retrieved 3 chunk(s)",
+      "confidence": 1.0,
+      "elapsed_ms": 1.14
+    },
+    {
+      "name": "Empty owner edge case",
+      "passed": true,
+      "message": "Empty owner handled without errors",
+      "confidence": 1.0,
+      "elapsed_ms": 0.03
+    },
+    {
+      "name": "Schedule summary accuracy",
+      "passed": true,
+      "message": "Summary: {'total_tasks': 2, 'completed': 1, 'pending': 1, 'conflicts': 0, 'pets': 1}",
+      "confidence": 1.0,
+      "elapsed_ms": 0.07
+    }
+  ]
+}
